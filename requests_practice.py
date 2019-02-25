@@ -4,6 +4,7 @@ import re
 
 
 def calc_age(uid):
+    """ Главная функция, которая отвечает за запросы к API VK """
 	access_token = "81aa0e9281aa0e9281aa0e925881c265f3881aa81aa0e92ddfe98f711816a9f281028ce"	
 	get_id = requests.get('https://api.vk.com/method/users.get', params={ 
 	'v':5.71,
@@ -22,6 +23,7 @@ def calc_age(uid):
 	
 	
 def friends_sort(friends_list:list):
+    """ Функция, которая выдает друзей в нужном формате """
 	friends_dict = dict()
 	for x in friends_list:
 		try:
