@@ -1,2 +1,2 @@
 # Requests practice
-Данная программа является клиентом к API VK , которая считает распределение возрастов друзей для указанного пользователя. То есть на вход в функцию calc_age подается username или user_id пользователя, на выходе получаем список пар (<возраст>, <количество друзей с таким возрастом>), отсортированный по убыванию по второму ключу (количество друзей) и по возрастанию по первому ключу (возраст).
+This is a script, that interacts with VK API, that counts distribution of ages of friends for indicated user, i.e on enter to function calc_age you give username or user_id of user, function returns list of tuples in format: (<age>, <quantity of friends>), sorted by descending order by second key (quantity of friends) and by ascending by first key (age).
